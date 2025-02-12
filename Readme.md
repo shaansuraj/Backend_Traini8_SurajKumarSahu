@@ -74,7 +74,7 @@ If you prefer, you can download the ZIP file of the repository:
 
 ## Database Configuration
 
-### Option A: Using PostgreSQL
+### Option A: Using PostgreSQL(I am using PostgreSQL in this application)
 
 **Install and Start PostgreSQL:**
 - Ensure PostgreSQL is installed and running.
@@ -169,7 +169,7 @@ java -jar target/Traini8-0.0.1-SNAPSHOT.jar
 > **Note:** If port **8080** is already in use, change the port in `application.properties`:
 >
 > ```properties
-> server.port=8081
+> server.port=8081, I am using 5000 in this application
 > ```
 
 ## Testing the API Using Postman
@@ -216,9 +216,9 @@ java -jar target/Traini8-0.0.1-SNAPSHOT.jar
 
 ## Troubleshooting
 
-- **Port Already in Use:** If you see an error about port **8080** being in use, either **stop the conflicting process** or change the port in `application.properties` (`server.port=8081`).
+- **Port Already in Use:** If you see an error about port **8080** being in use, either **stop the conflicting process** or change the port in `application.properties` (`server.port=8081 or any port you like(it should be free)`).
 - **Database Connection Issues:** Verify that PostgreSQL is running and the `traini8` database exists.
-- **Postman URL Issues:** If `%0A` (newline) appears in your URL, manually type the URL in Postman to avoid extra characters.
+- **Postman URL Issues:** If `%0A` (newline) appears in your URL, manually type the URL in Postman to avoid extra characters(Sometimes you might need to create a new request as well).
 
 ## Attachments
 
